@@ -96,6 +96,22 @@ body {
     }
 }
 
+/** Modals **/
+@media (min-width: @screen-sm-min) {
+    #annoycement-modal .modal-dialog {  // dirty haxx
+        position: fixed;
+        top: 50%;
+        left: 50%;
+
+        .modal-content {
+            width: 600px;
+            height: 171px;
+            margin-left: -300px;
+            margin-top: -130px;
+        }
+    }
+}
+
 /** Navbar **/
 .navbar {
     margin-bottom: 0;

@@ -17,7 +17,7 @@ export default class ButtonModal extends React.Component {
             <ButtonToolbar className="button-modal">
                 <Button bsStyle="primary" onClick={openButtonHandler}>Annoy me</Button>
 
-                <Modal show={show} onHide={hideHandler}>
+                <Modal id="annoycement-modal" show={show} onHide={hideHandler}>
                     <Modal.Header closeButton>
                         <Modal.Title>Annoyncement</Modal.Title>
                     </Modal.Header>
