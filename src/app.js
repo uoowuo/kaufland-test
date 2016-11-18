@@ -1,5 +1,5 @@
 /**
- * Kaufland test, v1.0
+ * Kaufland test, v1.1.1
  *
  * Description: A test for Kaufland.
  */
